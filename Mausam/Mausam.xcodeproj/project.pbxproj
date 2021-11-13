@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00A0402F26E3EF75009BDB61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A0402E26E3EF75009BDB61 /* AppDelegate.swift */; };
+		00A0403126E3EF75009BDB61 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A0403026E3EF75009BDB61 /* SceneDelegate.swift */; };
+		00A0403626E3EF75009BDB61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A0403426E3EF75009BDB61 /* Main.storyboard */; };
+		00A0403926E3EF75009BDB61 /* Mausam.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00A0403726E3EF75009BDB61 /* Mausam.xcdatamodeld */; };
+		00A0403B26E3EF79009BDB61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00A0403A26E3EF79009BDB61 /* Assets.xcassets */; };
+		00A0403E26E3EF79009BDB61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A0403C26E3EF79009BDB61 /* LaunchScreen.storyboard */; };
+		00A0404926E3EF79009BDB61 /* MausamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A0404826E3EF79009BDB61 /* MausamTests.swift */; };
+		00A0405426E3EF79009BDB61 /* MausamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A0405326E3EF79009BDB61 /* MausamUITests.swift */; };
+		00A0407926E3F40C009BDB61 /* LandingPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A0407826E3F40C009BDB61 /* LandingPageVC.swift */; };
+		00A0408026E3F6C4009BDB61 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A0407F26E3F6C4009BDB61 /* Constants.swift */; };
+		00A0408826E3F78B009BDB61 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A0408726E3F78B009BDB61 /* Color.swift */; };
+		00A0408D26E4188C009BDB61 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A0408C26E4188C009BDB61 /* WeatherModel.swift */; };
+		00A0409526E41928009BDB61 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A0409426E41928009BDB61 /* APIManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00A0404526E3EF79009BDB61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00A0402326E3EF75009BDB61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00A0402A26E3EF75009BDB61;
+			remoteInfo = Mausam;
+		};
+		00A0405026E3EF79009BDB61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00A0402326E3EF75009BDB61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00A0402A26E3EF75009BDB61;
+			remoteInfo = Mausam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00A0402B26E3EF75009BDB61 /* Mausam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mausam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A0402E26E3EF75009BDB61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00A0403026E3EF75009BDB61 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		00A0403526E3EF75009BDB61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00A0403826E3EF75009BDB61 /* Mausam.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mausam.xcdatamodel; sourceTree = "<group>"; };
+		00A0403A26E3EF79009BDB61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00A0403D26E3EF79009BDB61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00A0403F26E3EF79009BDB61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00A0404426E3EF79009BDB61 /* MausamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MausamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A0404826E3EF79009BDB61 /* MausamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MausamTests.swift; sourceTree = "<group>"; };
+		00A0404A26E3EF79009BDB61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00A0404F26E3EF79009BDB61 /* MausamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MausamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A0405326E3EF79009BDB61 /* MausamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MausamUITests.swift; sourceTree = "<group>"; };
+		00A0405526E3EF79009BDB61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00A0407826E3F40C009BDB61 /* LandingPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageVC.swift; sourceTree = "<group>"; };
+		00A0407F26E3F6C4009BDB61 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		00A0408726E3F78B009BDB61 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		00A0408C26E4188C009BDB61 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		00A0409426E41928009BDB61 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00A0402826E3EF75009BDB61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A0404126E3EF79009BDB61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A0404C26E3EF79009BDB61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00A0402226E3EF75009BDB61 = {
+			isa = PBXGroup;
+			children = (
+				00A0402D26E3EF75009BDB61 /* Mausam */,
+				00A0404726E3EF79009BDB61 /* MausamTests */,
+				00A0405226E3EF79009BDB61 /* MausamUITests */,
+				00A0402C26E3EF75009BDB61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00A0402C26E3EF75009BDB61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00A0402B26E3EF75009BDB61 /* Mausam.app */,
+				00A0404426E3EF79009BDB61 /* MausamTests.xctest */,
+				00A0404F26E3EF79009BDB61 /* MausamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00A0402D26E3EF75009BDB61 /* Mausam */ = {
+			isa = PBXGroup;
+			children = (
+				00A0407D26E3F698009BDB61 /* Extensions */,
+				00A0406B26E3F382009BDB61 /* APIManager */,
+				00A0406826E3F294009BDB61 /* Modules */,
+				00A0406726E3F25A009BDB61 /* CoreDataModel */,
+				00A0406626E3F23D009BDB61 /* Storyboards */,
+				00A0406526E3F232009BDB61 /* Assets */,
+				00A0406426E3F218009BDB61 /* Utilities */,
+				00A0403F26E3EF79009BDB61 /* Info.plist */,
+			);
+			path = Mausam;
+			sourceTree = "<group>";
+		};
+		00A0404726E3EF79009BDB61 /* MausamTests */ = {
+			isa = PBXGroup;
+			children = (
+				00A0404826E3EF79009BDB61 /* MausamTests.swift */,
+				00A0404A26E3EF79009BDB61 /* Info.plist */,
+			);
+			path = MausamTests;
+			sourceTree = "<group>";
+		};
+		00A0405226E3EF79009BDB61 /* MausamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				00A0405326E3EF79009BDB61 /* MausamUITests.swift */,
+				00A0405526E3EF79009BDB61 /* Info.plist */,
+			);
+			path = MausamUITests;
+			sourceTree = "<group>";
+		};
+		00A0406426E3F218009BDB61 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				00A0402E26E3EF75009BDB61 /* AppDelegate.swift */,
+				00A0403026E3EF75009BDB61 /* SceneDelegate.swift */,
+				00A0407F26E3F6C4009BDB61 /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		00A0406526E3F232009BDB61 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				00A0403A26E3EF79009BDB61 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		00A0406626E3F23D009BDB61 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				00A0403426E3EF75009BDB61 /* Main.storyboard */,
+				00A0403C26E3EF79009BDB61 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		00A0406726E3F25A009BDB61 /* CoreDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				00A0403726E3EF75009BDB61 /* Mausam.xcdatamodeld */,
+			);
+			path = CoreDataModel;
+			sourceTree = "<group>";
+		};
+		00A0406826E3F294009BDB61 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				00A0406A26E3F2F3009BDB61 /* LandingPage */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		00A0406A26E3F2F3009BDB61 /* LandingPage */ = {
+			isa = PBXGroup;
+			children = (
+				00A0406E26E3F3AD009BDB61 /* Model */,
+				00A0406D26E3F3A8009BDB61 /* View */,
+				00A0406C26E3F39F009BDB61 /* ViewModel */,
+			);
+			path = LandingPage;
+			sourceTree = "<group>";
+		};
+		00A0406B26E3F382009BDB61 /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				00A0409426E41928009BDB61 /* APIManager.swift */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
+		00A0406C26E3F39F009BDB61 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		00A0406D26E3F3A8009BDB61 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				00A0407826E3F40C009BDB61 /* LandingPageVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		00A0406E26E3F3AD009BDB61 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				00A0408C26E4188C009BDB61 /* WeatherModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		00A0407D26E3F698009BDB61 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				00A0408726E3F78B009BDB61 /* Color.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00A0402A26E3EF75009BDB61 /* Mausam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00A0405826E3EF79009BDB61 /* Build configuration list for PBXNativeTarget "Mausam" */;
+			buildPhases = (
+				00A0402726E3EF75009BDB61 /* Sources */,
+				00A0402826E3EF75009BDB61 /* Frameworks */,
+				00A0402926E3EF75009BDB61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mausam;
+			productName = Mausam;
+			productReference = 00A0402B26E3EF75009BDB61 /* Mausam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00A0404326E3EF79009BDB61 /* MausamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00A0405B26E3EF79009BDB61 /* Build configuration list for PBXNativeTarget "MausamTests" */;
+			buildPhases = (
+				00A0404026E3EF79009BDB61 /* Sources */,
+				00A0404126E3EF79009BDB61 /* Frameworks */,
+				00A0404226E3EF79009BDB61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00A0404626E3EF79009BDB61 /* PBXTargetDependency */,
+			);
+			name = MausamTests;
+			productName = MausamTests;
+			productReference = 00A0404426E3EF79009BDB61 /* MausamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		00A0404E26E3EF79009BDB61 /* MausamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00A0405E26E3EF79009BDB61 /* Build configuration list for PBXNativeTarget "MausamUITests" */;
+			buildPhases = (
+				00A0404B26E3EF79009BDB61 /* Sources */,
+				00A0404C26E3EF79009BDB61 /* Frameworks */,
+				00A0404D26E3EF79009BDB61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00A0405126E3EF79009BDB61 /* PBXTargetDependency */,
+			);
+			name = MausamUITests;
+			productName = MausamUITests;
+			productReference = 00A0404F26E3EF79009BDB61 /* MausamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00A0402326E3EF75009BDB61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					00A0402A26E3EF75009BDB61 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					00A0404326E3EF79009BDB61 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 00A0402A26E3EF75009BDB61;
+					};
+					00A0404E26E3EF79009BDB61 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 00A0402A26E3EF75009BDB61;
+					};
+				};
+			};
+			buildConfigurationList = 00A0402626E3EF75009BDB61 /* Build configuration list for PBXProject "Mausam" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00A0402226E3EF75009BDB61;
+			productRefGroup = 00A0402C26E3EF75009BDB61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00A0402A26E3EF75009BDB61 /* Mausam */,
+				00A0404326E3EF79009BDB61 /* MausamTests */,
+				00A0404E26E3EF79009BDB61 /* MausamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00A0402926E3EF75009BDB61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A0403E26E3EF79009BDB61 /* LaunchScreen.storyboard in Resources */,
+				00A0403B26E3EF79009BDB61 /* Assets.xcassets in Resources */,
+				00A0403626E3EF75009BDB61 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A0404226E3EF79009BDB61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A0404D26E3EF79009BDB61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00A0402726E3EF75009BDB61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A0409526E41928009BDB61 /* APIManager.swift in Sources */,
+				00A0408026E3F6C4009BDB61 /* Constants.swift in Sources */,
+				00A0402F26E3EF75009BDB61 /* AppDelegate.swift in Sources */,
+				00A0407926E3F40C009BDB61 /* LandingPageVC.swift in Sources */,
+				00A0408D26E4188C009BDB61 /* WeatherModel.swift in Sources */,
+				00A0403126E3EF75009BDB61 /* SceneDelegate.swift in Sources */,
+				00A0403926E3EF75009BDB61 /* Mausam.xcdatamodeld in Sources */,
+				00A0408826E3F78B009BDB61 /* Color.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A0404026E3EF79009BDB61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A0404926E3EF79009BDB61 /* MausamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A0404B26E3EF79009BDB61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A0405426E3EF79009BDB61 /* MausamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00A0404626E3EF79009BDB61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00A0402A26E3EF75009BDB61 /* Mausam */;
+			targetProxy = 00A0404526E3EF79009BDB61 /* PBXContainerItemProxy */;
+		};
+		00A0405126E3EF79009BDB61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00A0402A26E3EF75009BDB61 /* Mausam */;
+			targetProxy = 00A0405026E3EF79009BDB61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		00A0403426E3EF75009BDB61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00A0403526E3EF75009BDB61 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00A0403C26E3EF79009BDB61 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00A0403D26E3EF79009BDB61 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00A0405626E3EF79009BDB61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00A0405726E3EF79009BDB61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00A0405926E3EF79009BDB61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Mausam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sample.Mausam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00A0405A26E3EF79009BDB61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Mausam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sample.Mausam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		00A0405C26E3EF79009BDB61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MausamTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sample.MausamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mausam.app/Mausam";
+			};
+			name = Debug;
+		};
+		00A0405D26E3EF79009BDB61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MausamTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sample.MausamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mausam.app/Mausam";
+			};
+			name = Release;
+		};
+		00A0405F26E3EF79009BDB61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MausamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sample.MausamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mausam;
+			};
+			name = Debug;
+		};
+		00A0406026E3EF79009BDB61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MausamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sample.MausamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mausam;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00A0402626E3EF75009BDB61 /* Build configuration list for PBXProject "Mausam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A0405626E3EF79009BDB61 /* Debug */,
+				00A0405726E3EF79009BDB61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00A0405826E3EF79009BDB61 /* Build configuration list for PBXNativeTarget "Mausam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A0405926E3EF79009BDB61 /* Debug */,
+				00A0405A26E3EF79009BDB61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00A0405B26E3EF79009BDB61 /* Build configuration list for PBXNativeTarget "MausamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A0405C26E3EF79009BDB61 /* Debug */,
+				00A0405D26E3EF79009BDB61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00A0405E26E3EF79009BDB61 /* Build configuration list for PBXNativeTarget "MausamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A0405F26E3EF79009BDB61 /* Debug */,
+				00A0406026E3EF79009BDB61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		00A0403726E3EF75009BDB61 /* Mausam.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				00A0403826E3EF75009BDB61 /* Mausam.xcdatamodel */,
+			);
+			currentVersion = 00A0403826E3EF75009BDB61 /* Mausam.xcdatamodel */;
+			path = Mausam.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 00A0402326E3EF75009BDB61 /* Project object */;
+}
